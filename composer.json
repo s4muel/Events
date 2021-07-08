@@ -23,14 +23,13 @@
 		"issues": "https://github.com/kdyby/events/issues"
 	},
 	"require": {
-		"php": "^7.1",
+		"php": ">=7.1",
 		"nette/di": "^2.4.8@dev",
 		"nette/utils": "^2.4.5@dev",
 		"nette/reflection": "^2.4@dev",
 		"kdyby/strict-objects": "^1.0"
 	},
 	"require-dev": {
-		"kdyby/coding-standard": "^1.0@dev",
 		"nette/application": "^2.4@dev",
 		"nette/bootstrap": "^2.4@dev",
 		"nette/caching": "^2.5@dev",
@@ -41,7 +40,7 @@
 		"symfony/event-dispatcher": "^3.0 || ^4.0",
 
 		"nette/tester": "2.2.*",
-		"phpstan/phpstan-shim": "^0.11",
+		"phpstan/phpstan": "^0.12.88",
 		"jakub-onderka/php-parallel-lint": "^1.0"
 	},
 	"minimum-stability": "dev",
